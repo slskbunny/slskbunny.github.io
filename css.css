@@ -19,8 +19,8 @@ margin: 1cm auto; /* Gives that scrolling effect as the typing happens */
 letter-spacing: .15em; /* Adjust as needed */
 
 animation: 
-  typing 5s steps(40, end),
-  blink-caret 2s step-end infinite;}
+  typing 20s steps(40, end),
+  blink-caret 7s step-end infinite;}
 
 .main
 {text-align: center;
@@ -32,6 +32,8 @@ margin-left: 20%;
 margin-right: 20%;
 padding: 2%;
 letter-spacing: 1px;}
+
+img{margin-bottom: 30px;}
 
 @keyframes blink-caret {
     from, to {border-color: transparent;}
